@@ -299,7 +299,7 @@ async def channel_info(bot, message):
         os.remove(file)
 
 
-@Client.on_message(filters.command('logs')
+@Client.on_message(filters.command('logs') & filters.user(ADMINS))
 async def log_file(bot, message):
     """Send log file"""
     try:
@@ -308,7 +308,7 @@ async def log_file(bot, message):
         await message.reply(str(e))
 
 
-@Client.on_message(filters.command('delete')
+@Client.on_message(filters.command('delete') & filters.user(ADMINS))
 async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
@@ -356,7 +356,7 @@ async def delete(bot, message):
                 await msg.edit('File not found in database')
 
 
-@Client.on_message(filters.command('deleteall')
+@Client.on_message(filters.command('deleteall') & filters.user(ADMINS))
 async def delete_all_index(bot, message):
     await message.reply_text(
         'This will delete all indexed files.\nDo you want to continue??',
@@ -378,14 +378,14 @@ async def delete_all_index(bot, message):
     )
 
 
-@Client.on_callback_query(filters.regex(r'^autofilter_delete'))
+@Client.on_callback_query(filters.regex(r'^autofilter_delete')) & filters.user(ADMINS))
 async def delete_all_index_confirm(bot, message):
     await Media.collection.drop()
     await message.answer('Piracy Is Crime')
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
 
 
-@Client.on_message(filters.command('settings'))
+@Client.on_message(filters.command('settings')) & filters.user(ADMINS))
 async def settings(client, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
@@ -530,7 +530,7 @@ async def api_adder(bot, message):
     await sts.delete()
 
 
-@Client.on_message(filters.command('set_template'))
+@Client.on_message(filters.command('set_template')) & filters.user(ADMINS))
 async def save_template(client, message):
     sts = await message.reply("Checking template")
     userid = message.from_user.id if message.from_user else None
