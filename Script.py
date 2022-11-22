@@ -6,7 +6,12 @@ class script(object):
 \n 𝙹𝚞𝚜𝚝 𝙴𝚗𝚝𝚎𝚛 𝚃𝚑𝚎 𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎 𝚆𝚊𝚒𝚝 A 𝚜𝚎𝚌 𝚒𝚝 𝚠𝚒𝚕𝚕 𝚐𝚒𝚟𝚎 𝚝𝚑𝚎 𝙼𝚘𝚟𝚒𝚎😊\n⚡️I am Also A Simple Auto Filter⚡️ + Movie Search⚡️ + Manual Filter Bot⚡️.\n 🏆I Can Provide Movies In Telegram Groups🏆.\n 🏆I Can Also Add Filters In Telegram Groups🏆.\n🔮 Developer- @TechnicalBichu 🔮"""
 
     HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+How To Use Bot ? 🔘
+To Use Mdisk Shortner Link Movies Search Bot You Just Have A Account In https://mdiskshortnerlink.com/ref/Bichu From My Refferal |
+Go To Dashboard -> Menu -> Tools -> Devoloper Api . 
+Copy The Api And Add Ldisk Search Bot In Group .
+To Connect Your Api Contact @PirateGamers He Will Verify And Give Access To You  .
+Now Enjoy Your Profit 💸."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TechnicalBichu>✨️TechnicalBichu✨️</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
@@ -15,9 +20,11 @@ class script(object):
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙰𝙳𝚂
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
+Eva Maria is a open source project. 
 - Source - https://github.com/EvamariaTG/EvaMaria  
 - If You Want This Bot Repo Contact @PirateGamers
+<b>DEVS:</b>
+- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
 <b>DEVS:</b>
 - <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
