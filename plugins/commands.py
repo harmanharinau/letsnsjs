@@ -26,7 +26,7 @@ async def start(client, message):
         buttons = [
             [
                 InlineKeyboardButton(
-                    '🤖 Updates', url='https://t.me/SunDisk_official')
+                    '🤖 Updates', url='https://t.me/Technical_Bots')
             ],
             [
                 InlineKeyboardButton(
@@ -51,9 +51,9 @@ async def start(client, message):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                'Website 🌐', url='sundisk.in'),
+                'Website 🌐', url='https://mdiskshortnerlink.com/ref/Bichu'),
             InlineKeyboardButton(
-                'Updates ⚡', url='https://t.me/SunDisk_official')
+                'Updates ⚡', url='https://t.me/Technical_Bots')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -103,9 +103,9 @@ async def start(client, message):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🌐 web site', url='https://sundisk.in'),
+                '🌐 Website', url='https://mdiskshortnerlink.com/ref/Bichu'),
             InlineKeyboardButton(
-                '🤖 Updates', url='https://t.me/SunDisk_official')
+                '🤖 Updates', url='https://t.me/Technical_Bots')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
