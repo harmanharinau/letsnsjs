@@ -378,7 +378,7 @@ async def delete_all_index(bot, message):
     )
 
 
-@Client.on_callback_query(filters.regex(r'^autofilter_delete')) & filters.user(ADMINS))
+@Client.on_callback_query(filters.regex(r'^autofilter_delete'))
 async def delete_all_index_confirm(bot, message):
     await Media.collection.drop()
     await message.answer('Piracy Is Crime')
