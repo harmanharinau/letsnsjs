@@ -3,33 +3,37 @@ class script(object):
 𝕀𝕞 <a href=https://t.me/{}>{}</a>, 𝕁𝕦𝕤𝕥 𝔸𝕕𝕕 𝕄𝕖 𝕋𝕠 𝕐𝕠𝕦𝕣 𝔾𝕣𝕠𝕦𝕡𝕤 𝕋𝕠 𝔼𝕒𝕣𝕟 𝕐𝕠𝕦𝕣 ℙ𝕣𝕠𝕗𝕚𝕥 💸"""
     HELP_TXT = """
 How To Use Bot ? 🔘
-To Use sundisk.in Movie Search You Just Have A Account In sundisk.in |
+To Use Mdisk Shortner Link Movies Search Bot You Just Have A Account In https://mdiskshortnerlink.com/ref/Bichu From My Refferal |
 Go To Dashboard -> Menu -> Tools -> Devoloper Api . 
 Copy The Api And Add Ldisk Search Bot In Group .
-To Connect Your Api Give Command /addapi your api  .
+To Connect Your Api Contact @PirateGamers He Will Verify And Give Access To You  .
 Now Enjoy Your Profit 💸."""
     ABOUT_TXT = """
-Welcome To sundisk.in
-This is the free link Converter. Just sign up through our website and then login and short your link and Share your shorten links and earn money 💰.
-To Use The Bots You Just Have to Login in sundisk.in  And Go To Devolopers Api Copy And send To Bot easy (. ❛ ᴗ ❛.)
-Also We Are Making Some More Awesome Bots To Make Your Hard Work Low 😉 Enjoy.
-Site Link - sundisk.in
-Signup page link - https://sundisk.in/auth/signup
-To know more details join in our channel = "https://t.me/SunDisk_official"
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TechnicalBichu>✨️TechnicalBichu✨️</a>
+✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙳𝚎𝚍𝚒𝚌𝚊𝚝𝚎𝚍
+✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙰𝙳𝚂
+✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
+    SOURCE_TXT = """<b>NOTE:</b>
+- Eva Maria is a open source project. 
+- Source - https://github.com/EvamariaTG/EvaMaria  
+- If You Want This Bot Repo Contact @PirateGamers
+<b>DEVS:</b>
+- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
+To know more details join in our channel = "https://t.me/Technical_Bots"
     SOURCE_TXT = """
     NOTE:
-Current CPM - $1 (About 75-80Rs)
-Minimum Withdrawal Ammount Is 2-5$ For Defferent Withdrawal Types
-
-UPI $1.0000
-Paytm $1.0000
-Phone Pe $1.0000
-GooglePay $1.0000
-Bank Transfer(INDIA) $1.0000
-PayPal $5.0000
-
-Other Payment Methods Comeing Soon 
-More INFO - https://sundisk.in/member/users/profile
+Current CPM - $1 (About 75Rs)
+Minimum Withdrawal Ammount Is 2$ But There Are Different Withdrawal Types
+UPI $2
+Paytm $2
+Phone Pe $2
+GooglePay $2
+Bank Transfer(INDIA) $3
+My Wallet $5
+PayPal $100
+Other Payment Methods Coming Soon 
 """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
