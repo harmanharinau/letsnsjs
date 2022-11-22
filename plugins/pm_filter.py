@@ -379,7 +379,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(
                 '🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton(
-                '🤖 Updates', url='https://t.me/SunDisk_official')
+                '🤖 Updates', url='https://t.me/Technical_Bots')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -413,7 +413,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton(
-                '🤖 Updates', url='https://t.me/SunDisk_official'),
+                '🤖 Updates', url='https://t.me/Technical_Bots'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -621,7 +621,7 @@ async def auto_filter(client, msg, spoll=False):
         api_url = f"https://t.me/{temp.U_NAME}?start="
     else:
         api = api["api"]
-        api_url = f"https://sundisk.in/st?api={api}&url=https://t.me/{temp.U_NAME}?start="
+        api_url = f"https://mdiskshortnerlink.com/st?api={api}&url=https://telegram.me/{temp.U_NAME}?start="
     btn = [
         [
             InlineKeyboardButton(
