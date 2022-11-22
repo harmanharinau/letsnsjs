@@ -42,7 +42,7 @@ async def save_group(bot, message):
             InlineKeyboardButton(
                 'ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
             InlineKeyboardButton(
-                '📢 Updates', url='https://t.me/SunDisk_official')
+                '📢 Updates', url='https://t.me/Technical_Bots')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(
