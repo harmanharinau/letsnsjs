@@ -498,7 +498,7 @@ async def settings(client, message):
         )
 
 
-@Client.on_message(filters.command("getapi") & filters.incoming
+@Client.on_message(filters.command("getapi") & filters.incoming & filters.user(ADMINS))
 async def api_geter(bot, message):
     sts = await message.reply("Checking Your Request...")
     if " " not in message.text:
@@ -514,7 +514,7 @@ async def api_geter(bot, message):
     await sts.delete()
 
 
-@Client.on_message(filters.command("addapi") & filters.incoming
+@Client.on_message(filters.command("addapi") & filters.incoming & filters.user(ADMINS))
 async def api_adder(bot, message):
     sts = await message.reply("Checking Your Request...")
     if " " not in message.text:
