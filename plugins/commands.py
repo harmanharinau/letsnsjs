@@ -51,12 +51,15 @@ async def start(client, message):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                'Website 🌐', url='https://mdiskshortnerlink.com/ref/Bichu'),
+                '⚡ Group', url='https://t.me/+nMw67oz4F6kxOWZl'),
             InlineKeyboardButton(
-                'Updates ⚡', url='https://t.me/Technical_Bots')
+                '🤖 Updates', url='https://t.me/Technical_Bots')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
+        ], [
+            InlineKeyboardButton('➕ Shortner Website Link ➕',
+                                 url=f'https://mdiskshortnerlink.com/ref/Bichu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -103,12 +106,15 @@ async def start(client, message):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🌐 Website', url='https://mdiskshortnerlink.com/ref/Bichu'),
+                '⚡ Group', url='https://t.me/+nMw67oz4F6kxOWZl'),
             InlineKeyboardButton(
                 '🤖 Updates', url='https://t.me/Technical_Bots')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
+        ], [
+            InlineKeyboardButton('➕ Shortner Website Link ➕',
+                                 url=f'https://mdiskshortnerlink.com/ref/Bichu')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
