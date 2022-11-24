@@ -638,7 +638,7 @@ async def auto_filter(client, msg, spoll=False):
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
-        btn.append([
+        btn.append(
                 [InlineKeyboardButton("⚡️ How To Download ⚡️ ", url=f"https://t.me/How_To_Open_Links_23")]
             )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
