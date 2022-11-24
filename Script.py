@@ -3,13 +3,13 @@ class script(object):
     START_TXT = """𝐇𝐞𝐥𝐥𝐨 {} 👋,
 𝙸'𝙼  <a href=https://t.me/{}>{}</a>,\n
 🎞𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 & 𝚆𝙴𝙱 𝚂𝙴𝚁𝙸𝙴𝚂, 🍿𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 🍿(𝙵𝚁𝙴𝙴 𝙾𝙵 𝙲𝙾𝚄𝚁𝚂𝙴) 🤗
-\n 𝙹𝚞𝚜𝚝 𝙴𝚗𝚝𝚎𝚛 𝚃𝚑𝚎 𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎 𝚆𝚊𝚒𝚝 A 𝚜𝚎𝚌 𝚒𝚝 𝚠𝚒𝚕𝚕 𝚐𝚒𝚟𝚎 𝚝𝚑𝚎 𝙼𝚘𝚟𝚒𝚎😊\n⚡️I am Also A Simple Auto Filter⚡️ + Movie Search⚡️ + Manual Filter Bot⚡️.\n 🏆I Can Provide Movies In Telegram Groups🏆.\n 🏆I Can Also Add Filters In Telegram Groups🏆.\n🔮 Developer- @TechnicalBichu 🔮"""
+\n 𝙹𝚞𝚜𝚝 𝙴𝚗𝚝𝚎𝚛 𝚃𝚑𝚎 𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎 𝚆𝚊𝚒𝚝 A 𝚜𝚎𝚌 𝚒𝚝 𝚠𝚒𝚕𝚕 𝚐𝚒𝚟𝚎 𝚝𝚑𝚎 𝙼𝚘𝚟𝚒𝚎😊 """
 
     HELP_TXT = """𝙷𝙴𝚈 {}
 How To Use Bot ? 🔘
 To Use Mdisk Shortner Link Movies Search Bot You Just Have A Account In https://mdiskshortnerlink.com/ref/Bichu From My Refferal |
 Go To Dashboard -> Menu -> Tools -> Devoloper Api . 
-Copy The Api And Add Ldisk Search Bot In Group .
+Copy The Api And Add Popcorn Movies Search Bot In Group .
 To Connect Your Api Contact @PirateGamers He Will Verify And Give Access To You  .
 Now Enjoy Your Profit 💸."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
