@@ -622,18 +622,19 @@ async def auto_filter(client, msg, spoll=False):
     else:
         api = api["api"]
         api_url = f"https://mdiskshortnerlink.com/st?api={api}&url=https://telegram.me/{temp.U_NAME}?start="
-    btn = [        for file in files
+    btn = [
+        [
+            InlineKeyboardButton(
+                text=f"[{get_size(file.file_size)}] {file.file_name}", url=f"{api_url}{file.file_id}"
+            ),
+        ]
+        for file in files
     ]
 
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
-        btn.append(
-            [InlineKeyboardButton(text=f"🗓 1/{math.ceil(int(total_results) / 10)}", callback_data="pages"),
-             InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
-        )
-    else:
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
