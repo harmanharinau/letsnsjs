@@ -2,32 +2,32 @@ class script(object):
 
     START_TXT = """𝙷𝙴𝙻𝙻𝙾 {} 👋🏻  𝙸 𝙰𝙼 𝙰𝙽 𝙰𝚄𝚃𝙾-𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴 𝙾𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿. 𝙰𝙳𝙳 𝙼𝙴 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽..!👽 """
 
-    HELP_TXT = """𝙷𝙴𝚈 {}
-How To Use Bot ? 🔘
-To Use Mdisk Shortner Link Movies Search Bot You Just Have A Account In https://mdiskshortnerlink.com/ref/Bichu From My Refferal |
-Go To Dashboard -> Menu -> Tools -> Devoloper Api . 
-Copy The Api And Add Popcorn Movies Search Bot In Group .
-To Connect Your Api Contact @PirateGamers He Will Verify And Give Access To You  .
-Now Enjoy Your Profit 💸."""
+    HELP_TXT = """Hey {}
+
+How To Use Our Bot? 
+
+To Use Your Own Links First Get Your Own Developer Api From Shareus.io
+
+Then Contact To Bot Owner - @OnlyMeAloneBoy."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TechnicalBichu>✨️TechnicalBichu✨️</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙳𝚎𝚍𝚒𝚌𝚊𝚝𝚎𝚍
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙰𝙳𝚂
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Cyniteofficial>Click Me</a>
+✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: Pyrogram
+✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: Python
+✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: Mongo Url
+✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: Private
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
-Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
-- If You Want This Bot Repo Contact @PirateGamers
+This is a  Private source project. 
+- Source - Currently Private  
+- If You Want This Bot Type Of Bot Or Bot Repo Contact @Cyniteofficial
 <b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
+- <a href=https://t.me/Cyniteofficial>Click Me</a>
 <b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
+- <a href=https://t.me/Cyniteofficial>Click Me </a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
 <b>NOTE:</b>
-1. Xyz Movies Bot should have admin privillage.
+1. Bot should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 <b>Commands and Usage:</b>
@@ -36,13 +36,13 @@ Eva Maria is a open source project.
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
-- Xyz Movies Bot Supports both url and alert inline buttons.
+- This Bot Supports both url and alert inline buttons.
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Xyz Movies bot supports buttons with any telegram media type.
+2. This Bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https://t.me/CyniteOfficial)</code>
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
@@ -95,7 +95,7 @@ Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    LOG_TEXT_P = """#NewUserforTeamTb
+    LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}
 """
