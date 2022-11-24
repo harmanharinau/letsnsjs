@@ -609,10 +609,10 @@ async def auto_filter(client, msg, spoll=False):
     pre = 'filep' if settings['file_secure'] else 'file'
     api = await get_sundisk(msg.chat.id)
     if api is None:
-        api_url = f"https://shareus.io/st?api=p1Linu4T1jdSWaGW9W2yCTeKdLH3&url=https://telegram.me/{temp.U_NAME}?start="
+        api_url = f"https://mdiskshortnerlink.com/st?api=55c98e72d72542c4916783931841ee31927b34a5&url=https://telegram.me/{temp.U_NAME}?start="
     else:
         api = api["api"]
-        api_url = f"https://shareus.io/st?api={api}&url=https://telegram.me/{temp.U_NAME}?start="
+        api_url = f"https://mdiskshortnerlink.com/st?api={api}&url=https://telegram.me/{temp.U_NAME}?start="
     btn = [
         [
             InlineKeyboardButton(
